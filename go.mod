@@ -1,4 +1,4 @@
-module lab1
+module learn_gin
 
 go 1.23.3
 

@@ -1,7 +1,7 @@
 package service
 
 import (
-	"lab1/entity"
+	"learn_gin/internal/entity"
 )
 
 type VideoService interface {

@@ -2,10 +2,22 @@
  - using env:	export GIN_MODE=release
  - using code:	gin.SetMode(gin.ReleaseMode)
 
-[GIN-debug] GET    /videos                   --> main.main.func1 (4 handlers)
-[GIN-debug] POST   /videos                   --> main.main.func2 (4 handlers)
+[GIN-debug] GET    /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] HEAD   /css/*filepath            --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] Loaded HTML Templates (4): 
+	- header.html
+	- index.html
+	- 
+	- footer.html
+
+[GIN-debug] GET    /api/videos               --> main.main.func1 (5 handlers)
+[GIN-debug] POST   /api/videos               --> main.main.func2 (5 handlers)
+[GIN-debug] GET    /view/videos              --> learn_gin/internal/controller.VideoController.ShowAll-fm (5 handlers)
 [GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
 Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
 [GIN-debug] Listening and serving HTTP on :8080
-::1 - [11 Nov 24 17:05 MSK] GET /videos 401 4.472µs 
-::1 - [11 Nov 24 17:06 MSK] GET /videos 200 107.714µs 
+::1 - [26 Nov 24 14:00 MSK] GET /view/videos 200 1.816158ms 
+::1 - [26 Nov 24 14:00 MSK] POST /api/videos 200 413.175µs 
+::1 - [26 Nov 24 14:00 MSK] POST /api/videos 200 338.345µs 
+::1 - [26 Nov 24 14:00 MSK] POST /api/videos 200 256.762µs 
+::1 - [26 Nov 24 14:00 MSK] GET /view/videos 200 627.437µs 
