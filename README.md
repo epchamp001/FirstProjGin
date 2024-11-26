@@ -107,14 +107,16 @@ Go to the address http://localhost:8080/view/videos to see the added videos on t
 ## 🌟 Screenshots
 
 ### Sending a POST request
-
-### Authorization
+![image](https://github.com/user-attachments/assets/e649b4a8-9d61-4522-8ea1-db7fae34c5c8)
 
 ### Sending an incorrect POST request
+![image](https://github.com/user-attachments/assets/71f7ec91-54d0-43f9-99e3-3166751ab590)
 
 ### Getting a list of videos
+![image](https://github.com/user-attachments/assets/86c58fea-6bf4-4a70-96e4-f68ee253ff78)
 
 ### A web page with a video
+![image](https://github.com/user-attachments/assets/89012802-356c-4341-b813-76202f1cdfe8)
 
 ## 🔍 Notes
 * Logging of requests is recorded in the `git.log` file.
